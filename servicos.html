@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça os serviços especializados da Barbearia Juarez: Visagismo Masculino, Cortes Personalizados, Design de Barba e Tratamentos Capilares.">
+    <title>Serviços | Barbearia Juarez - Visagismo Masculino</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lora:wght@400;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Menu principal">
+        <div class="container">
+            <div class="navbar__brand">
+                <a href="index.html" class="navbar__logo">
+                    <img border-radius="20" width="100" height="100" src="img/Ambiente/logo_melhorado.png" alt="logo Juarez">
+                    <span class="logo__text">Barbearia Juarez</span>
+                </a>
+            </div>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Abrir menu de navegação">
+            <label for="menu-toggle" class="menu-icon" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <ul class="navbar__menu">
+                <li><a href="index.html" class="navbar__link">Início</a></li>
+                <li><a href="servicos.html" class="navbar__link navbar__link--active" aria-current="page">Serviços</a></li>
+                <li><a href="sobre.html" class="navbar__link">Sobre</a></li>
+                <li><a href="contato.html" class="navbar__link navbar__link--cta">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header__overlay"></div>
+        <div class="container">
+            <span class="page-header__subtitle" data-reveal="fade-up">Excelência em Estética Masculina</span>
+            <h1 class="page-header__title" data-reveal="fade-up-delay-1">Nossos Serviços</h1>
+            <p class="page-header__description" data-reveal="fade-up-delay-2">
+                Transforme sua imagem com técnicas avançadas e atendimento personalizado
+            </p>
+        </div>
+    </section>
+
+    <!-- Service Filters -->
+    <section class="service-filters">
+        <div class="container">
+            <div class="filters-wrapper">
+                <input type="radio" name="filter" id="filter-all" class="filter-input" checked>
+                <label for="filter-all" class="filter-label">Todos os Serviços</label>
+                
+                <input type="radio" name="filter" id="filter-visagismo" class="filter-input">
+                <label for="filter-visagismo" class="filter-label">Visagismo</label>
+                
+                <input type="radio" name="filter" id="filter-cabelo" class="filter-input">
+                <label for="filter-cabelo" class="filter-label">Cabelo</label>
+                
+                <input type="radio" name="filter" id="filter-barba" class="filter-input">
+                <label for="filter-barba" class="filter-label">Barba</label>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Service: Visagismo -->
+    <section class="featured-service section" id="visagismo">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-reveal="fade-right">
+                    <div class="featured-service__visual">
+                        <img src="/img/Serviço/juarez.avif" alt="Análise de visagismo sendo realizada" class="featured-service__image">
+                    </div>
+                </div>
+                <div class="col-lg-6" data-reveal="fade-left">
+                    <span class="section__subtitle">Nosso Diferencial</span>
+                    <h2 class="section__title">Visagismo Masculino Profissional</h2>
+                    <p class="featured-service__intro">
+                        O visagismo é a base de todo nosso trabalho. Através de análise técnica e estudo das proporções faciais, identificamos o corte e estilo de barba perfeitos para você.
+                    </p>
+                    
+                    <div class="featured-service__details">
+                        <h3>O que está incluído:</h3>
+                        <ul class="details-list">
+                            <li>
+                                <span class="details-list__icon">✓</span>
+                                <div>
+                                    <strong>Análise Facial Completa</strong>
+                                    <p>Estudo detalhado do formato do rosto, proporções e características únicas</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="details-list__icon">✓</span>
+                                <div>
+                                    <strong>Consultoria Personalizada</strong>
+                                    <p>Conversamos sobre seu estilo de vida, profissão e preferências pessoais</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="details-list__icon">✓</span>
+                                <div>
+                                    <strong>Recomendações Técnicas</strong>
+                                    <p>Sugestões de cortes, barbas e produtos ideais para manutenção</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="details-list__icon">✓</span>
+                                <div>
+                                    <strong>Execução Premium</strong>
+                                    <p>Corte e finalização com técnicas avançadas e produtos profissionais</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="featured-service__cta">
+                        <a href="contato.html" class="btn btn--primary">Agendar Consulta de Visagismo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="services-grid section section--light">
+        <div class="container">
+            
+            <!-- Cabelo Services -->
+            <div class="service-detail" data-category="cabelo visagismo" id="corte">
+                <div class="row align-items-center">
+                    <div class="col-lg-5" data-reveal="fade-right">
+                        <img src="/img/Serviço/Personalizado.webp" alt="Corte de cabelo personalizado" class="service-detail__image">
+                    </div>
+                    <div class="col-lg-7" data-reveal="fade-left">
+                        <div class="service-detail__icon">
+                            <img src="assets/icons/scissors.svg" alt="" aria-hidden="true">
+                        </div>
+                        <h3 class="service-detail__title">Corte Personalizado</h3>
+                        <p class="service-detail__description">
+                            Cada corte é único e planejado especificamente para você. Utilizamos técnicas clássicas e contemporâneas para criar um visual que reflita sua personalidade e valorize suas características faciais.
+                        </p>
+                        <div class="service-detail__features">
+                            <div class="feature-item">
+                                <strong>Estilos disponíveis:</strong>
+                                <span>Degradê baixo, médio e alto • Undercut • Pompadour • Social • Executivo • Fade • Texturizado</span>
+                            </div>
+                            <div class="feature-item">
+                                <strong>Duração:</strong>
+                                <span>45 a 60 minutos</span>
+                            </div>
+                            <div class="feature-item">
+                                <strong>Inclui:</strong>
+                                <span>Lavagem, corte, finalização e orientações de manutenção</span>
+                            </div>
+                        </div>
+                        <a href="contato.html" class="btn btn--secondary">Agendar Corte</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-divider"></div>
+
+            <!-- Barba Services -->
+            <div class="service-detail service-detail--reverse" data-category="barba visagismo">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 order-lg-1 order-2" data-reveal="fade-right">
+                        <div class="service-detail__icon">
+                            <img src="assets/icons/beard.svg" alt="" aria-hidden="true">
+                        </div>
+                        <h3 class="service-detail__title">Design de Barba</h3>
+                        <p class="service-detail__description">
+                            A barba é uma ferramenta poderosa para harmonizar o rosto. Criamos designs estratégicos que equilibram proporções, definem a linha do maxilar e destacam sua masculinidade natural.
+                        </p>
+                        <div class="service-detail__features">
+                            <div class="feature-item">
+                                <strong>Técnicas:</strong>
+                                <span>Modelagem completa • Contorno definido • Degradê de barba • Barba desenhada • Manutenção e ajuste</span>
+                            </div>
+                            <div class="feature-item">
+                                <strong>Duração:</strong>
+                                <span>30 a 45 minutos</span>
+                            </div>
+                            <div class="feature-item">
+                                <strong>Inclui:</strong>
+                                <span>Aparar, modelar, navalha, toalha quente e hidratação</span>
+                            </div>
+                        </div>
+                        <a href="contato.html" class="btn btn--secondary">Agendar Design de Barba</a>
+                    </div>
+                    <div class="col-lg-5 order-lg-2 order-1" data-reveal="fade-left">
+                        <img src="/img/Serviço/Barba_Personalizada.webp" alt="Design de barba profissional" class="service-detail__image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-divider"></div>
+
+            <!-- Tratamentos -->
+            <div class="service-detail" data-category="cabelo barba" id="tratamentos">
+                <div class="row align-items-center">
+                    <div class="col-lg-5" data-reveal="fade-right">
+                        <img src="/img/Serviço/Lavando_Cabelo.jpg" alt="Tratamentos capilares especializados" class="service-detail__image">
+                    </div>
+                    <div class="col-lg-7" data-reveal="fade-left">
+                        <div class="service-detail__icon">
+                            <img src="assets/icons/comb.svg" alt="" aria-hidden="true">
+                        </div>
+                        <h3 class="service-detail__title">Tratamentos Capilares</h3>
+                        <p class="service-detail__description">
+                            Manter cabelo e barba saudáveis é essencial para um visual impecável. Oferecemos tratamentos especializados com produtos premium para diferentes necessidades.
+                        </p>
+                        <div class="service-detail__features">
+                            <div class="feature-item">
+                                <strong>Tratamentos disponíveis:</strong>
+                                <span>Hidratação profunda • Tonalização • Coloração • Platinado • Relaxamento • Reconstrução capilar</span>
+                            </div>
+                            <div class="feature-item">
+                                <strong>Duração:</strong>
+                                <span>30 a 90 minutos (conforme tratamento)</span>
+                            </div>
+                            <div class="feature-item">
+                                <strong>Produtos:</strong>
+                                <span>Linha profissional premium selecionada</span>
+                            </div>
+                        </div>
+                        <a href="contato.html" class="btn btn--secondary">Agendar Tratamento</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-divider"></div>
+
+            <!-- Combo Services -->
+            <div class="combo-services" data-reveal="fade-up">
+                <h3 class="combo-services__title">Pacotes Combinados</h3>
+                <p class="combo-services__intro">Economize tempo e aproveite nossos combos especiais</p>
+                
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="combo-card">
+                            <h4>Combo Completo</h4>
+                            <p class="combo-card__services">Visagismo + Corte + Design de Barba</p>
+                            <p class="combo-card__description">
+                                Transformação total com análise técnica e execução premium
+                            </p>
+                            <span class="combo-card__duration">Duração: 90 minutos</span>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="combo-card">
+                            <h4>Combo Express</h4>
+                            <p class="combo-card__services">Corte + Design de Barba</p>
+                            <p class="combo-card__description">
+                                Visual renovado com rapidez e qualidade profissional
+                            </p>
+                            <span class="combo-card__duration">Duração: 60 minutos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose section section--dark">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" data-reveal="fade-up">Por Que Escolher a Barbearia Juarez</h2>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3" data-reveal="fade-up-delay-1">
+                    <div class="benefit-card">
+                        <div class="benefit-card__number">01</div>
+                        <h4>Técnica Especializada</h4>
+                        <p>Formação em visagismo e atualização constante nas melhores técnicas de barbering</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-reveal="fade-up-delay-2">
+                    <div class="benefit-card">
+                        <div class="benefit-card__number">02</div>
+                        <h4>Atendimento Premium</h4>
+                        <p>Ambiente exclusivo, produtos de qualidade superior e atenção aos detalhes</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-reveal="fade-up-delay-3">
+                    <div class="benefit-card">
+                        <div class="benefit-card__number">03</div>
+                        <h4>Resultado Garantido</h4>
+                        <p>Cada serviço é executado com precisão para superar suas expectativas</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-reveal="fade-up-delay-4">
+                    <div class="benefit-card">
+                        <div class="benefit-card__number">04</div>
+                        <h4>Consultoria Contínua</h4>
+                        <p>Orientamos sobre manutenção e produtos para você manter o visual impecável</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section section">
+        <div class="container">
+            <div class="cta-box" data-reveal="fade-up">
+                <h2 class="cta-box__title">Pronto para Transformar Seu Visual?</h2>
+                <p class="cta-box__text">
+                    Agende seu horário e descubra como o visagismo pode valorizar sua imagem
+                </p>
+                <a href="contato.html" class="btn btn--primary btn--large">Agendar Agora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer__brand">
+                        <img border-radius="20" width="100" height="100" src="img/Ambiente/logo_melhorado.jpg" alt="logo Juarez">                        
+                        <h3>Barbearia Juarez</h3>
+                        <p class="footer__tagline">Visagismo Masculino Profissional</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6">
+                    <h4 class="footer__title">Menu</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer__title">Contato</h4>
+                    <ul class="footer__contact">
+                        <li>
+                            <a href="tel:+5511999999999">(11) 99999-9999</a>
+                        </li>
+                        <li>
+                            <a href="mailto:contato@barbeariajuarez.com.br">contato@barbeariajuarez.com.br</a>
+                        </li>
+                        <li>Rua Exemplo, 123 - São Paulo/SP</li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer__title">Redes Sociais</h4>
+                    <div class="footer__social">
+                        <a href="https://instagram.com/barbeariajuarez" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Barbearia Juarez" class="social-link">
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp da Barbearia Juarez" class="social-link">
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2025 Barbearia Juarez. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

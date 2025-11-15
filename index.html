@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Barbearia Juarez - Especialistas em Visagismo Masculino. Transforme sua identidade com cortes personalizados baseados nas suas características faciais.">
+    <title>Barbearia Juarez | Visagismo Masculino Profissional</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lora:wght@400;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS (Grid only) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Menu principal">
+        <div class="container">
+            <div class="navbar__brand">
+                <a href="index.html" class="navbar__logo">
+                    <img border-radius="20" width="100" height="100" src="img/Ambiente/logo_melhorado.png" alt="logo Juarez">
+                    <span class="logo__text">Barbearia Juarez</span>
+                </a>
+            </div>
+            
+            <!-- Mobile Menu Toggle -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Abrir menu de navegação">
+            <label for="menu-toggle" class="menu-icon" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <ul class="navbar__menu">
+                <li><a href="index.html" class="navbar__link navbar__link--active" aria-current="page">Início</a></li>
+                <li><a href="servicos.html" class="navbar__link">Serviços</a></li>
+                <li><a href="sobre.html" class="navbar__link">Sobre</a></li>
+                <li><a href="contato.html" class="navbar__link navbar__link--cta">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" role="banner">
+        <div class="hero__overlay"></div>
+        <div class="hero__texture"></div>
+        <div class="container">
+            <div class="hero__content">
+                <span class="hero__subtitle" data-reveal="fade-up">Visagismo Profissional</span>
+                <h1 class="hero__title" data-reveal="fade-up-delay-1">
+                    Visagismo que<br>
+                    <span class="hero__title--highlight">transforma sua identidade</span>
+                </h1>
+                <p class="hero__description" data-reveal="fade-up-delay-2">
+                    Descubra o corte perfeito para o formato do seu rosto com técnicas avançadas de visagismo masculino
+                </p>
+                <a href="contato.html" class="btn btn--primary" data-reveal="fade-up-delay-3" aria-label="Agendar horário na barbearia">
+                    Agendar Horário
+                </a>
+            </div>
+        </div>
+        <div class="hero__scroll-indicator" aria-hidden="true">
+            <span>Role para descobrir</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-preview section" id="servicos">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__subtitle" data-reveal="fade-up">Nossos Serviços</span>
+                <h2 class="section__title" data-reveal="fade-up-delay-1">Experiência Completa em Estética Masculina</h2>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3" data-reveal="fade-up-delay-1">
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <img src="assets/icons/face-proportions.svg" alt="" aria-hidden="true">
+                        </div>
+                        <h3 class="service-card__title">Visagismo Masculino</h3>
+                        <p class="service-card__description">
+                            Análise técnica do formato facial para determinar o corte ideal que harmoniza com suas características
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-reveal="fade-up-delay-2">
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <img src="assets/icons/scissors.svg" alt="" aria-hidden="true">
+                        </div>
+                        <h3 class="service-card__title">Corte Personalizado</h3>
+                        <p class="service-card__description">
+                            Cortes modernos e clássicos adaptados ao seu estilo de vida e perfil profissional
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-reveal="fade-up-delay-3">
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <img src="assets/icons/beard.svg" alt="" aria-hidden="true">
+                        </div>
+                        <h3 class="service-card__title">Design de Barba</h3>
+                        <p class="service-card__description">
+                            Modelagem estratégica de barba para equilibrar proporções faciais e destacar sua masculinidade
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-reveal="fade-up-delay-4">
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <img src="assets/icons/comb.svg" alt="" aria-hidden="true">
+                        </div>
+                        <h3 class="service-card__title">Tratamentos Capilares</h3>
+                        <p class="service-card__description">
+                            Hidratação, tonalização e tratamentos específicos para manter cabelo e barba sempre impecáveis
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visagismo Explanation -->
+    <section class="visagismo-info section section--dark">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-reveal="fade-right">
+                    <div class="visagismo-info__visual">
+                        <img src="assets/icons/face-proportions.svg" alt="Diagrama de proporções faciais para visagismo" class="visagismo-info__diagram">
+                        <div class="visagismo-info__accent"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-reveal="fade-left">
+                    <span class="section__subtitle">Ciência & Arte</span>
+                    <h2 class="section__title">O que é Visagismo?</h2>
+                    <p class="visagismo-info__text">
+                        Visagismo é a arte de criar uma imagem pessoal que reflete a verdadeira essência de quem você é. Utilizamos técnicas precisas de análise facial para identificar:
+                    </p>
+                    <ul class="visagismo-info__list">
+                        <li>
+                            <span class="list-icon">✓</span>
+                            <strong>Formato do rosto:</strong> oval, redondo, quadrado, triangular ou retangular
+                        </li>
+                        <li>
+                            <span class="list-icon">✓</span>
+                            <strong>Proporções faciais:</strong> harmonia entre testa, olhos, nariz e queixo
+                        </li>
+                        <li>
+                            <span class="list-icon">✓</span>
+                            <strong>Linhas de expressão:</strong> características que definem sua personalidade
+                        </li>
+                        <li>
+                            <span class="list-icon">✓</span>
+                            <strong>Volume capilar:</strong> densidade e textura do cabelo e barba
+                        </li>
+                    </ul>
+                    <p class="visagismo-info__text">
+                        Com base nessa análise, criamos um visual único que valoriza seus pontos fortes e equilibra suas características naturais.
+                    </p>
+                    <a href="sobre.html" class="btn btn--secondary">Conheça Nossa Filosofia</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Before/After -->
+    <section class="portfolio section">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__subtitle" data-reveal="fade-up">Transformações Reais</span>
+                <h2 class="section__title" data-reveal="fade-up-delay-1">Resultados que Falam por Si</h2>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-reveal="fade-up-delay-1">
+                    <div class="portfolio-card">
+                        <div class="portfolio-card__image-wrapper">
+                            <img src="assets/img/portfolio-1-antes.jpg" alt="Cliente antes do corte" class="portfolio-card__image portfolio-card__image--before">
+                            <img src="assets/img/portfolio-1-depois.jpg" alt="Cliente depois do corte com visagismo aplicado" class="portfolio-card__image portfolio-card__image--after">
+                            <div class="portfolio-card__overlay">
+                                <span class="portfolio-card__label">Transformação</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-card__info">
+                            <h3 class="portfolio-card__title">Rosto Oval</h3>
+                            <p class="portfolio-card__technique">Visagismo + Degradê Médio</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4" data-reveal="fade-up-delay-2">
+                    <div class="portfolio-card">
+                        <div class="portfolio-card__image-wrapper">
+                            <img src="assets/img/portfolio-2-antes.jpg" alt="Cliente antes do design de barba" class="portfolio-card__image portfolio-card__image--before">
+                            <img src="assets/img/portfolio-2-depois.jpg" alt="Cliente depois do design de barba personalizado" class="portfolio-card__image portfolio-card__image--after">
+                            <div class="portfolio-card__overlay">
+                                <span class="portfolio-card__label">Transformação</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-card__info">
+                            <h3 class="portfolio-card__title">Rosto Redondo</h3>
+                            <p class="portfolio-card__technique">Design de Barba Estruturada</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4" data-reveal="fade-up-delay-3">
+                    <div class="portfolio-card">
+                        <div class="portfolio-card__image-wrapper">
+                            <img src="assets/img/portfolio-3-antes.jpg" alt="Cliente antes do corte executivo" class="portfolio-card__image portfolio-card__image--before">
+                            <img src="assets/img/portfolio-3-depois.jpg" alt="Cliente depois do corte executivo com visagismo" class="portfolio-card__image portfolio-card__image--after">
+                            <div class="portfolio-card__overlay">
+                                <span class="portfolio-card__label">Transformação</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-card__info">
+                            <h3 class="portfolio-card__title">Rosto Quadrado</h3>
+                            <p class="portfolio-card__technique">Corte Executivo Premium</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials section section--dark">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__subtitle" data-reveal="fade-up">Depoimentos</span>
+                <h2 class="section__title" data-reveal="fade-up-delay-1">O que Nossos Clientes Dizem</h2>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4" data-reveal="fade-up-delay-1">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__rating" aria-label="Avaliação 5 estrelas">
+                            ★★★★★
+                        </div>
+                        <p class="testimonial-card__text">
+                            "Nunca imaginei que um corte poderia fazer tanta diferença. O Juarez analisou meu rosto com técnica e precisão, o resultado foi muito além das minhas expectativas."
+                        </p>
+                        <div class="testimonial-card__author">
+                            <strong>Ricardo Mendes</strong>
+                            <span>Empresário</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4" data-reveal="fade-up-delay-2">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__rating" aria-label="Avaliação 5 estrelas">
+                            ★★★★★
+                        </div>
+                        <p class="testimonial-card__text">
+                            "Profissional excepcional! O trabalho com visagismo transformou não só minha aparência, mas também minha autoconfiança. Recomendo demais."
+                        </p>
+                        <div class="testimonial-card__author">
+                            <strong>Felipe Santos</strong>
+                            <span>Advogado</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4" data-reveal="fade-up-delay-3">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__rating" aria-label="Avaliação 5 estrelas">
+                            ★★★★★
+                        </div>
+                        <p class="testimonial-card__text">
+                            "Ambiente impecável, atendimento premium e resultado perfeito. A atenção aos detalhes e o conhecimento técnico fazem toda a diferença."
+                        </p>
+                        <div class="testimonial-card__author">
+                            <strong>André Costa</strong>
+                            <span>Arquiteto</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section section">
+        <div class="container">
+            <div class="cta-box" data-reveal="fade-up">
+                <h2 class="cta-box__title">Pronto para Descobrir Seu Melhor Visual?</h2>
+                <p class="cta-box__text">
+                    Agende uma consulta de visagismo e transforme sua imagem com técnica profissional
+                </p>
+                <a href="contato.html" class="btn btn--primary btn--large">Agendar Agora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer__brand">
+                        <img border-radius="20" width="100" height="100" src="img/Ambiente/logo_melhorado.jpg" alt="logo Juarez">
+                        <h3>Barbearia Juarez</h3>
+                        <p class="footer__tagline">Visagismo Masculino Profissional</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6">
+                    <h4 class="footer__title">Menu</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer__title">Contato</h4>
+                    <ul class="footer__contact">
+                        <li>
+                            <a href="tel:+5511999999999">(11) 99999-9999</a>
+                        </li>
+                        <li>
+                            <a href="mailto:contato@barbeariajuarez.com.br">contato@barbeariajuarez.com.br</a>
+                        </li>
+                        <li>Rua Exemplo, 123 - São Paulo/SP</li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer__title">Redes Sociais</h4>
+                    <div class="footer__social">
+                        <a href="https://instagram.com/barbeariajuarez" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Barbearia Juarez" class="social-link">
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp da Barbearia Juarez" class="social-link">
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2025 Barbearia Juarez. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
